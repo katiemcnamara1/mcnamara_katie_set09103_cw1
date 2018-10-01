@@ -15,7 +15,7 @@ body {
 }
 
 mark {
-  background-color: black;
+  background-color: #000000;
   color: white;
   padding: 10px;
 }
