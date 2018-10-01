@@ -3,7 +3,7 @@
 body {
   font-family: Arial;
   padding: 20px;
-  background: #F45C5C;
+  background: #f1f1f1;
 }
 
 .header {
@@ -14,7 +14,7 @@ body {
 }
 
 mark {
-  background-color: #000000;
+  background-color: #475A65;
   color: white;
   padding: 5px;
 }
