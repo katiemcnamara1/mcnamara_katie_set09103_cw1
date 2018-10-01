@@ -13,3 +13,9 @@ body {
   text-align: center;
   background-image: url(https://png.icons8.com/ios/1600/french-music-filled.png);
 }
+
+mark {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+}
