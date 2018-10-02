@@ -22,10 +22,10 @@ mark {
 .speech{
   margin-top: auto;
   margin-left: 200px;
+
 }
 
 .beret{
-margin-top: 200px;
-margin-left: 300px;
+float: left;
 
 }
