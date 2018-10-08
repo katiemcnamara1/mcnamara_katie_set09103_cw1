@@ -1,5 +1,14 @@
 header{
 
   font-family: "MingLiu";
-  font-style: oblique;
+  color: #DAA520;
+}
+
+body{
+
+  background-image: url(https://www.clayesmore.com/wp-content/uploads/Les-Mis-1.png);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
