@@ -1,31 +1,5 @@
+header{
 
-
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: #CCF4FE;
-}
-
-.header {
-  padding: 20px;
-  font-size: 40px;
-  font-family: courier;
-  text-align: center;
-}
-
-mark {
-  background-color: #9F867F;
-  color: #FCF7E0;
-  padding: 5px;
-}
-
-.speech{
-  margin-top: auto;
-  margin-left: 200px;
-
-}
-
-.beret{
-float: left;
-
+  font-family: "MingLiu";
+  font-style: oblique;
 }
