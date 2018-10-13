@@ -1,3 +1,4 @@
+
 .header{
 
   text-align: center;
@@ -17,12 +18,41 @@
 
 }
 
-hr { margin:  5px 250px; }
+hr { margin:  5px 150px; }
 
-body{
-  background-image: url(https://www.clayesmore.com/wp-content/uploads/Les-Mis-1.png);
+html body{
+  background-image: url(https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?cs=srgb&dl=bricks-pattern-texture-1092364.jpg&fm=jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+ padding: 0;
 
+}
+
+.overPar{
+  margin: 150px;
+  width: 100%;
+  font-family: fantasy;
+  color: #515151;
+  font-size: 18px;
+  margin-top: 110px;
+}
+
+.floatright{
+  float:right;
+  margin: 100px;
+  margin-right: -40px;
+
+  margin-top: 218px;
+}
+
+.headerOver{
+  font-family:fantasy;
+  float:left;
+  margin-left: 150px;
+  color: #515151;
 
 }
 
@@ -49,7 +79,6 @@ body{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 1);
     background-image: url(https://www.lesmis.com//media/images/backgrounds/les-mis-image-flag.jpg);
-
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -96,29 +125,22 @@ body{
 }
 
 mark {
-  background-color: black;
+  background-color: #515151;
   color: white;
   padding: 10px;
 }
 
 
-
-
-.victor{
-
-  background-repeat: no-repeat;
-  position:right ;
-}
-
 .footer{
 
-  position: fixed;
+  position:fixed;
     left: 0;
-    bottom: 20px;
+
     width: 100%;
-    color: black;
+    color: #515151;
     text-align: center;
     font-family: times;
     font-size: 20px;
+
 
 }
