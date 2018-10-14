@@ -9,6 +9,10 @@ def root():
 def roots():
     return render_template('about.html')
 
+@app.route('/about/characters')
+def characters():
+    return render_template('characters.html')
+
 
 
 
