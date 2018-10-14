@@ -15,7 +15,7 @@ def character():
 
 @app.route('/about/characters/<name>')
 def characters(name=None):
-    return render_template('characters.html', name=name)
+    return render_template('characters2.html', name=name)
 
 
 

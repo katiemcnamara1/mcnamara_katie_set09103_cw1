@@ -18,6 +18,32 @@
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 35%;
+    padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
 hr { margin:  5px 150px; }
 
 html body{
@@ -38,6 +64,14 @@ html body{
   color: #515151;
   font-size: 18px;
   margin-top: 110px;
+}
+
+.charPar{
+  margin-top: 100px;
+  font-family: fantasy;
+  color: #515151;
+  font-size: 18px;
+  margin-left: 150px;
 }
 
 .floatright{
