@@ -5,7 +5,9 @@ app = Flask(__name__)
 def root():
     return render_template('home.html')
 
-
+@app.route('/about')
+def roots():
+    return render_template('about.html')
 
 
 
