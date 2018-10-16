@@ -14,16 +14,16 @@ def character():
     return render_template('characters.html')
 
 @app.route('/about/characters/Cosette')
-def characters(name=None):
+def characters(name=Cosette):
     return render_template('characters2.html', name=name)
 
 
 @app.route('/about/characters/JeanValjean')
-def characters(name=None):
+def characters(name=JeanValjean):
     return render_template('characters2.html', name=name)
 
 @app.route('/about/characters/Fantine')
-def characters(name=None):
+def characters(name=Fantine):
     return render_template('characters2.html', name=name)
 
 
