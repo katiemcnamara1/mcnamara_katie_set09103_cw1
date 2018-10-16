@@ -14,17 +14,22 @@ def character():
     return render_template('characters.html')
 
 @app.route('/about/characters/Cosette')
-def characters(name=Cosette):
+    def Cosette():
+        name = 'Cosette'
     return render_template('characters2.html', name=name)
 
 
 @app.route('/about/characters/JeanValjean')
-def characters(name=JeanValjean):
+def Jean():
+    name='Jean'
     return render_template('characters2.html', name=name)
 
 @app.route('/about/characters/Fantine')
-def characters(name=Fantine):
+def characters():
+    name ='Fantine'
     return render_template('characters2.html', name=name)
+
+
 
 
 if __name__ == "__main__":
