@@ -1,11 +1,17 @@
 <!doctype html>
-{% extends "base.html" %}
+{% extends "characters.html" %}
 {% if name == "Javert"%}
+{%block content%}
 <h1>Hello JeanValjean</h1>
 {% elif name =="Cosette" %}
 <h1>Hello cosette</h1>
+{% endblock%}}
+{%block content%}
 {% elif name =="Fantine" %}
 <h1>Hello Fantine</h1>
+{%endblock%}}
+{%block content%}
 {% elif name =="Cosette" %}
 <h1>Hello cosette</h1>
+{%endblock%}}
 {% endif %}
