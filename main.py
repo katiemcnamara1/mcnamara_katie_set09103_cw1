@@ -15,7 +15,7 @@ def character():
 
 @app.route('/about/characters/Cosette/')
 def Cosette():
-        name = 'Cosette'
+    name = 'Cosette'
     return render_template('characters2.html', name=name)
 
 
