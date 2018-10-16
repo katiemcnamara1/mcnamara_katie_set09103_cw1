@@ -13,8 +13,8 @@ def roots():
 def character():
     return render_template('characters.html')
 
-@app.route('/about/characters/Cosette')
-    def Cosette():
+@app.route('/about/characters/Cosette/')
+def Cosette():
         name = 'Cosette'
     return render_template('characters2.html', name=name)
 
@@ -28,8 +28,6 @@ def Jean():
 def characters():
     name ='Fantine'
     return render_template('characters2.html', name=name)
-
-
 
 
 if __name__ == "__main__":
