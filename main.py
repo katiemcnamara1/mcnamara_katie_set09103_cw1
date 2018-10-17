@@ -16,18 +16,18 @@ def character():
 @app.route('/about/characters/Cosette/')
 def Cosette():
     name = 'Cosette'
-    return render_template('characters3.html', name=name)
+    return render_template('characters2.html', name=name)
 
 
 @app.route('/about/characters/JeanValjean')
 def Jean():
     name='Jean'
-    return render_template('characters3.html', name=name)
+    return render_template('characters2.html', name=name)
 
 @app.route('/about/characters/Fantine')
 def characters():
     name ='Fantine'
-    return render_template('characters3.html', name=name)
+    return render_template('characters2.html', name=name)
 
 
 
