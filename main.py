@@ -13,7 +13,7 @@ def roots():
 def character():
     return render_template('characters.html')
 
-@app.route('/about/characters/Cosette/')
+@app.route('/about/characters/Cosette')
 def Cosette():
     name = 'Cosette'
     return render_template('characters2.html', name=name)
