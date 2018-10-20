@@ -18,15 +18,44 @@ def Cosette():
     name = 'Cosette'
     return render_template('characters2.html', name=name)
 
-
 @app.route('/about/characters/JeanValjean')
 def Jean():
     name='Jean'
     return render_template('characters2.html', name=name)
 
 @app.route('/about/characters/Fantine')
-def characters():
+def Fantine():
     name ='Fantine'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/Marius')
+def Marius():
+    name ='Marius'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/Eponine')
+def Eponine():
+    name ='Eponine'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/MonsieurThenardier')
+def Monsieur():
+    name ='MonsieurThenardier'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/Javert')
+def Javert():
+    name ='Javert'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/MadameThenardier')
+def Madame():
+    name ='MadameThenardier'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/Enjolras')
+def Enjolras():
+    name ='Enjolras'
     return render_template('characters2.html', name=name)
 
 
