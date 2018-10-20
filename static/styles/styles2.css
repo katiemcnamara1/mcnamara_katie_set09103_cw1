@@ -22,11 +22,23 @@
     box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 35%;
-    padding: 10px;
+.column-left {
+	width: 33%;
+	left: 0;
+margin-left: 150px;
+	position: absolute;
+}
+.column-center {
+	width: 34%;
+
+	margin-left: 500px;
+	position: absolute;
+}
+.column-right {
+	width: 33%;
+	right: 0;
+	position: absolute;
+  margin-right: -15px;
 
 }
 
