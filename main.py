@@ -88,8 +88,12 @@ def ColonelGeorgesPontmercy():
     name ='ColonelGeorgesPontmercy'
     return render_template('characters2.html', name=name)
 
+@app.route('/films')
+def films():
+    return render_template('films.html')
+
 @app.route('/films/1978')
-def film():
+def film1():
     name ='1978'
     return render_template('films2.html', name=name)
 
