@@ -9,9 +9,9 @@ def root():
 def roots():
     return render_template('about.html')
 
-@app.route('/about/films')
+@app.route('/about/film')
 def films():
-    return render_template('films.html')
+    return render_template('film.html')
 
 @app.route('/about/characters')
 def character():
@@ -94,25 +94,7 @@ def ColonelGeorgesPontmercy():
 
 
 
-@app.route('/films/1978')
-def film1():
-    name ='1978'
-    return render_template('films2.html', name=name)
 
-@app.route('/films/1982')
-def film2():
-    name ='1982'
-    return render_template('films2.html', name=name)
-
-@app.route('/films/1998')
-def film3():
-    name ='1998'
-    return render_template('films2.html', name=name)
-
-@app.route('/films/2012')
-def film4():
-    name ='2012'
-    return render_template('films2.html', name=name)
 
 
 
