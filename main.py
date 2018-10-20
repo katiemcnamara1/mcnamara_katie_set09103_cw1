@@ -58,6 +58,11 @@ def Enjolras():
     name ='Enjolras'
     return render_template('characters2.html', name=name)
 
+@app.route('/about/characters/Gavorche')
+def Gavorche():
+    name ='Gavorche'
+    return render_template('characters2.html', name=name)
+
 
 
 if __name__ == "__main__":
