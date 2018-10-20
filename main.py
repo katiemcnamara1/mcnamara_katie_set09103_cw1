@@ -63,6 +63,36 @@ def Gavorche():
     name ='Gavorche'
     return render_template('characters2.html', name=name)
 
+@app.route('/about/characters/BishopMyriel')
+def BishopMyriel():
+    name ='BishopMyriel'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/Fauchelevent')
+def Fauchelevent():
+    name ='Fauchelevent'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/Champmathieu')
+def Champmathieu():
+    name ='Champmathieu'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/BaptistineMyriel')
+def BaptistineMyriel():
+    name ='BaptistineMyriel'
+    return render_template('characters2.html', name=name)
+
+@app.route('/about/characters/ColonelGeorgesPontmercy')
+def ColonelGeorgesPontmercy():
+    name ='ColonelGeorgesPontmercy'
+    return render_template('characters2.html', name=name)
+
+
+
+
+
+
 
 
 if __name__ == "__main__":

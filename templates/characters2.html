@@ -1,9 +1,9 @@
-<!doctype html>
-{% if name == "Jean"%}
+<!doctype html> {% if name == "Jean"%}
 <!DOCTYPE html>
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
 
@@ -11,9 +11,11 @@
 
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
 
 
   <hr />
@@ -26,11 +28,12 @@
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -41,66 +44,68 @@
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Richard Jordan - Jean Valjean
+        <p>
+          Les Miserables (1978)
+          <br /> Richard Jordan - Jean Valjean
 
-     </p>
+        </p>
 
-     <P>
-       Les Miserables (1982)
-       <br />
-       Lino Ventura - Jean Valjean
+        <P>
+          Les Miserables (1982)
+          <br /> Lino Ventura - Jean Valjean
 
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-      Liam Neeson - Jean Valjean
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-         Hugh Jackman - Jean Valjean
-       </p>
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Liam Neeson - Jean Valjean
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Hugh Jackman - Jean Valjean
+        </p>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1>Jean Valjean</h1>
+      </div>
+    </div>
+    <div class="column-left">
+      <h1>Jean Valjean</h1>
 
-   <p>
-     Jean Valjean is the protagonist of Victor Hugo's 1862 novel Les Misérables. Hugo depicts the character's 19-year-long struggle to lead a normal life after serving a prison sentence for stealing bread to feed his sister's children during a time of economic depression and various attempts to escape from prison. Valjean is also known in the novel as Monsieur Madeleine, Ultime Fauchelevent, Monsieur Leblanc, and Urbain Fabre.
-<br />
-Valjean and police Inspector Javert, who repeatedly encounters Valjean and attempts to return him to prison, have become archetypes in literary culture. In the popular imagination, the character of Jean Valjean came to represent both Hugo himself and leftist sentiment. In 1871, when Hugo was living in Brussels during the radical revolt known as the Paris Commune, anti-revolutionary mobs attacked his house and broke windows shouting "Down with Jean Valjean!"[1]
-   </p>
+      <p>
+        Jean Valjean is the protagonist of Victor Hugo's 1862 novel Les Misérables. Hugo depicts the character's 19-year-long struggle to lead a normal life after serving a prison sentence for stealing bread to feed his sister's children during a time of economic
+        depression and various attempts to escape from prison. Valjean is also known in the novel as Monsieur Madeleine, Ultime Fauchelevent, Monsieur Leblanc, and Urbain Fabre.
+        <br /> Valjean and police Inspector Javert, who repeatedly encounters Valjean and attempts to return him to prison, have become archetypes in literary culture. In the popular imagination, the character of Jean Valjean came to represent both Hugo
+        himself and leftist sentiment. In 1871, when Hugo was living in Brussels during the radical revolt known as the Paris Commune, anti-revolutionary mobs attacked his house and broke windows shouting "Down with Jean Valjean!"[1]
+      </p>
 
-   </div></div>
-   <div class="column-right"><img src="https://orig00.deviantart.net/26e3/f/2013/249/e/e/les_miserables___jean_valjean_by_outsidelogic-d6la4db.jpg" width="400" height="400" class="" ></div>
-</div>
+    </div>
+  </div>
+  <div class="column-right"><img src="https://orig00.deviantart.net/26e3/f/2013/249/e/e/les_miserables___jean_valjean_by_outsidelogic-d6la4db.jpg" width="400" height="400" class=""></div>
+  </div>
 
 
 
 </body>
+
 </html>
 
 {% elif name =="Cosette" %}
 <!DOCTYPE html>
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
 
@@ -108,9 +113,11 @@ Valjean and police Inspector Javert, who repeatedly encounters Valjean and attem
 
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
 
 
   <hr />
@@ -123,11 +130,12 @@ Valjean and police Inspector Javert, who repeatedly encounters Valjean and attem
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -138,69 +146,68 @@ Valjean and police Inspector Javert, who repeatedly encounters Valjean and attem
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Caroline Langrishe - Cosette (Adult)
-       <br />
-       Joanne Price - Cosette (Child)
-     </p>
+        <p>
+          Les Miserables (1978)
+          <br /> Caroline Langrishe - Cosette (Adult)
+          <br /> Joanne Price - Cosette (Child)
+        </p>
 
-     <P>
-       Les Miserables (1982)
-       <br />
-       Christiane Jean - Cosette (Adult)
-       <br />
-       Valentine Bordelet - Cosette (child)
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-       Claire Danes - Cosette (Adult)
-       <br />
-       Mimi Newman -  Cosette (Child)
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-         Amanda Seyfried - Cosette (Adult)
-         <br />
-         Isabelle Allen - Cosette (Child)
-       </p>
+        <P>
+          Les Miserables (1982)
+          <br /> Christiane Jean - Cosette (Adult)
+          <br /> Valentine Bordelet - Cosette (child)
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Claire Danes - Cosette (Adult)
+          <br /> Mimi Newman - Cosette (Child)
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Amanda Seyfried - Cosette (Adult)
+          <br /> Isabelle Allen - Cosette (Child)
+        </p>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1>Cosette</h1>
+      </div>
+    </div>
+    <div class="column-left">
+      <h1>Cosette</h1>
 
-   <p>
-     Cosette is the main deuteragonist in the novel Les Misérables by Victor Hugo. She is the illegitimate daughter of Fantine and Félix Tholomyès. Her birth name is Euphrasie but she is referred to throughout her life as "Cosette." As a small child, she is left with the Thénardiers and their children, who horribly abuse her while indulging their own young daughters, Éponine and Azelma.  On Christmas of 1823, Cosette is adopted (and saved) by Jean Valjean. Later she grows into a beautiful young girl and marries Marius Pontmercy near the end of the story. She is also one of the few characters to have survived the entire course of the novel and musical.
-   </p>
+      <p>
+        Cosette is the main deuteragonist in the novel Les Misérables by Victor Hugo. She is the illegitimate daughter of Fantine and Félix Tholomyès. Her birth name is Euphrasie but she is referred to throughout her life as "Cosette." As a small child, she is
+        left with the Thénardiers and their children, who horribly abuse her while indulging their own young daughters, Éponine and Azelma. On Christmas of 1823, Cosette is adopted (and saved) by Jean Valjean. Later she grows into a beautiful young girl
+        and marries Marius Pontmercy near the end of the story. She is also one of the few characters to have survived the entire course of the novel and musical.
+      </p>
 
-   </div></div>
-   <div class="column-right"><img src="https://www.polarisproductions.org/wp-content/uploads/2017/11/cosette-1.png" width="400" height="400" class="" ></div>
-</div>
+    </div>
+  </div>
+  <div class="column-right"><img src="https://www.polarisproductions.org/wp-content/uploads/2017/11/cosette-1.png" width="400" height="400" class=""></div>
+  </div>
 
 
 
 </body>
+
 </html>
 {% elif name =="Fantine" %}
 <!DOCTYPE html>
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
 
@@ -208,9 +215,11 @@ Valjean and police Inspector Javert, who repeatedly encounters Valjean and attem
 
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
 
 
   <hr />
@@ -223,11 +232,12 @@ Valjean and police Inspector Javert, who repeatedly encounters Valjean and attem
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -238,75 +248,79 @@ Valjean and police Inspector Javert, who repeatedly encounters Valjean and attem
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Angela Pleasence - Fantine
+        <p>
+          Les Miserables (1978)
+          <br /> Angela Pleasence - Fantine
 
-     </p>
+        </p>
 
-     <P>
-       Les Miserables (1982)
-       <br />
-       Evelyne Bouix - Fantine
+        <P>
+          Les Miserables (1982)
+          <br /> Evelyne Bouix - Fantine
 
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-      Uma Thurman - Fantine
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-         Anne Hathaway - Fantine
-       </p>
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Uma Thurman - Fantine
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Anne Hathaway - Fantine
+        </p>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1> Fantine </h1>
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Fantine </h1>
 
-   <p>
-     Fantine is a fictional character in Victor Hugo's 1862 novel Les Miserables. She is a young orphaned grisette in Paris who becomes pregnant by a rich student. After he abandons her, she is forced to look after their child, Cosette, on her own. Originally a pretty and naive girl, Fantine is eventually forced by circumstances to become a prostitute, selling her hair and front teeth, losing her beauty and health. The money she earns is sent to support her daughter.
-<br />
-Fantine became an archetype of self-abnegation and devoted motherhood. Possibly due to her status as an orphan, Hugo never labels her with a surname. She has been portrayed by many actresses in stage and screen versions of the story and has been depicted in works of art.
-   </p>
+      <p>
+        Fantine is a fictional character in Victor Hugo's 1862 novel Les Miserables. She is a young orphaned grisette in Paris who becomes pregnant by a rich student. After he abandons her, she is forced to look after their child, Cosette, on her own. Originally
+        a pretty and naive girl, Fantine is eventually forced by circumstances to become a prostitute, selling her hair and front teeth, losing her beauty and health. The money she earns is sent to support her daughter.
+        <br /> Fantine became an archetype of self-abnegation and devoted motherhood. Possibly due to her status as an orphan, Hugo never labels her with a surname. She has been portrayed by many actresses in stage and screen versions of the story and
+        has been depicted in works of art.
+      </p>
 
-   </div></div>
-   <div class="column-right"><img src="https://i.pinimg.com/originals/bb/53/68/bb5368a9016c1f671769c733390741c2.png" width="300" height="500" class="" ></div>
-</div>
+    </div>
+  </div>
+  <div class="column-right"><img src="https://i.pinimg.com/originals/bb/53/68/bb5368a9016c1f671769c733390741c2.png" width="300" height="500" class=""></div>
+  </div>
 
 
 
 </body>
+
 </html>
 
 {% elif name =="Javert" %}
 <!DOCTYPE html>
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
 
 
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
 
 
   <hr />
@@ -319,11 +333,12 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -334,69 +349,76 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Anthony Perkins - Javert
+        <p>
+          Les Miserables (1978)
+          <br /> Anthony Perkins - Javert
 
-     </p>
+        </p>
 
-     <P>
-       Les Miserables (1982)
-       <br />
-       Michel Bouquet - Inspecteur Javert
+        <P>
+          Les Miserables (1982)
+          <br /> Michel Bouquet - Inspecteur Javert
 
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-      Geoffrey Rush - Javert
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-         Russell Crowe - Javert
-       </p>
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Geoffrey Rush - Javert
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Russell Crowe - Javert
+        </p>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1> Javert </h1>
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Javert </h1>
 
-   <p>
-     Javert is so obsessed with enforcing society's laws and morals that he does not realize he is living by mistaken assumptions - a tragic and ironic flaw in a man who believes so strongly in enforcing what he believes is right. Although Javert is such a stern and inflexible character that it is hard to sympathize with him, he lives with the shame of knowing that his own Gypsy upbringing is not so different from the backgrounds of the men he pursues. Following his encounters with Jean Valjean during the June Rebellion, in which he is first spared by Valjean and, later, spares him arrest, Javert experiences a deep torment caused by the compromise of his previous worldview. Where previously he has 'never in his life known anything but one straight line,' the kind behavior of Valjean compels him to see two: 'both equal straight', and 'contradictory'. The profound confusion caused by this-by the realization that the law is not infallible, that he himself is not irreproachable, and that there exists a superior force (identified by Hugo with God) to what he has known-plunges him into a despair in which he feels himself 'demolished'. It is to escape this 'unnatural state' that he commits suicide.
-   </p>
+      <p>
+        Javert is so obsessed with enforcing society's laws and morals that he does not realize he is living by mistaken assumptions - a tragic and ironic flaw in a man who believes so strongly in enforcing what he believes is right. Although Javert is such a
+        stern and inflexible character that it is hard to sympathize with him, he lives with the shame of knowing that his own Gypsy upbringing is not so different from the backgrounds of the men he pursues. Following his encounters with Jean Valjean
+        during the June Rebellion, in which he is first spared by Valjean and, later, spares him arrest, Javert experiences a deep torment caused by the compromise of his previous worldview. Where previously he has 'never in his life known anything but
+        one straight line,' the kind behavior of Valjean compels him to see two: 'both equal straight', and 'contradictory'. The profound confusion caused by this-by the realization that the law is not infallible, that he himself is not irreproachable,
+        and that there exists a superior force (identified by Hugo with God) to what he has known-plunges him into a despair in which he feels himself 'demolished'. It is to escape this 'unnatural state' that he commits suicide.
+      </p>
 
-   </div></div>
-   <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Javert.jpg" width="300" height="500" class="" ></div>
-</div>
+    </div>
+  </div>
+  <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Javert.jpg" width="300" height="500" class=""></div>
+  </div>
 
 
 
 </body>
+
 </html>
 {% elif name =="Marius" %}
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
   <hr />
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -404,11 +426,12 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -419,71 +442,75 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Christopher Guard - Marius
+        <p>
+          Les Miserables (1978)
+          <br /> Christopher Guard - Marius
 
-     </p>
+        </p>
 
-     <P>
-       Les Miserables (1982)
-       <br />
-       Frank David - Marius
+        <P>
+          Les Miserables (1982)
+          <br /> Frank David - Marius
 
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-      Hans Matheson - Marius
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-         Eddie Redmayne - Marius
-       </p>
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Hans Matheson - Marius
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Eddie Redmayne - Marius
+        </p>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1> Marius </h1>
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Marius </h1>
 
-   <p>
-     The son of Georges Pontmercy, a colonel in Napoleon's army. Marius grows up in the home of his grandfather, M. Gillenormand, a monarchist. Marius has an identity crisis when he learns the real reason for his separation from his father, and this crisis sets him on the path to discovering himself. An innocent young man, Marius is nonetheless capable of great things and manages both to fight on the barricades and successfully court the love of his life, Cosette.
-   </p>
+      <p>
+        The son of Georges Pontmercy, a colonel in Napoleon's army. Marius grows up in the home of his grandfather, M. Gillenormand, a monarchist. Marius has an identity crisis when he learns the real reason for his separation from his father, and this crisis
+        sets him on the path to discovering himself. An innocent young man, Marius is nonetheless capable of great things and manages both to fight on the barricades and successfully court the love of his life, Cosette.
+      </p>
 
-   </div></div>
-   <div class="column-right"><img src="http://www.brunswick.k12.me.us/hdwyer/files/2013/02/marius.jpg" width="300" height="500" class="" ></div>
-</div>
+    </div>
+  </div>
+  <div class="column-right"><img src="http://www.brunswick.k12.me.us/hdwyer/files/2013/02/marius.jpg" width="300" height="500" class=""></div>
+  </div>
 
 
 
 </body>
+
 </html>
 
 {% elif name =="Eponine" %}
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
 
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
 
 
   <hr />
@@ -494,11 +521,12 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -509,65 +537,70 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
-
-
-
-     <P>
-       Les Miserables (1982)
-       <br />
-       Candice Patou - Eponine
-
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-      Sylvie Koblizkova -  Eponine
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-         Samantha Barks - Eponine
-       </p>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1> Eponine </h1>
+        <P>
+          Les Miserables (1982)
+          <br /> Candice Patou - Eponine
 
-   <p>
-     The Thenardiers' eldest daughter. Eponine is a wretched creature who helps her parents steal, but she is eventually redeemed by her love for Marius. She proves that no one is beyond redemption, and she ultimately emerges as one of the novel’s most tragic and heroic figures.
-   </p>
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Sylvie Koblizkova - Eponine
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Samantha Barks - Eponine
+        </p>
 
-   </div></div>
-   <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Eponine_and_Patron-Minette.jpg" width="300" height="500" class="" ></div>
-</div>
+
+
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Eponine </h1>
+
+      <p>
+        The Thenardiers' eldest daughter. Eponine is a wretched creature who helps her parents steal, but she is eventually redeemed by her love for Marius. She proves that no one is beyond redemption, and she ultimately emerges as one of the novel’s most tragic
+        and heroic figures.
+      </p>
+
+    </div>
+  </div>
+  <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Eponine_and_Patron-Minette.jpg" width="300" height="500" class=""></div>
+  </div>
 
 
 
 </body>
+
 </html>
 
 {% elif name =="MonsieurThenardier" %}
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
 
 
   <hr />
@@ -580,11 +613,12 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -595,69 +629,73 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Ian Holm - Monsieur Thenardier
+        <p>
+          Les Miserables (1978)
+          <br /> Ian Holm - Monsieur Thenardier
 
-     </p>
+        </p>
 
-     <P>
-       Les Miserables (1982)
-       <br />
-      Jean Carmet - Monsieur Thenardier
+        <P>
+          Les Miserables (1982)
+          <br /> Jean Carmet - Monsieur Thenardier
 
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-    Jon Kenny - Monsieur Thenardier
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-          Sacha Baron Cohen - Monsieur Thenardier
-       </p>
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Jon Kenny - Monsieur Thenardier
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Sacha Baron Cohen - Monsieur Thenardier
+        </p>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1> Monsieur Thenardier </h1>
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Monsieur Thenardier </h1>
 
-   <p>
-      A cruel, wretched, money-obsessed man who first appears as Cosette's keeper and tormentor. Thenardier extorts money from whomever he can, and he frequently serves as an informant to whoever will bid the highest. His schemes range from robbery to fraud to murder, and he has strong ties to the criminal underworld in Paris. Blinded by greed, Thenardier is incapable of loving other human beings and spends every minute in pursuit of money.
-   </p>
+      <p>
+        A cruel, wretched, money-obsessed man who first appears as Cosette's keeper and tormentor. Thenardier extorts money from whomever he can, and he frequently serves as an informant to whoever will bid the highest. His schemes range from robbery to fraud
+        to murder, and he has strong ties to the criminal underworld in Paris. Blinded by greed, Thenardier is incapable of loving other human beings and spends every minute in pursuit of money.
+      </p>
 
-   </div></div>
-   <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Thenardiers.JPG" width="300" height="500" class="" ></div>
-</div>
+    </div>
+  </div>
+  <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Thenardiers.JPG" width="300" height="500" class=""></div>
+  </div>
 
 </body>
+
 </html>
 
 {% elif name =="MadameThenardier" %}
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
 
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
 
 
   <hr />
@@ -670,11 +708,12 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -685,70 +724,74 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Caroline Blakiston  - Madame Thenardier
+        <p>
+          Les Miserables (1978)
+          <br /> Caroline Blakiston - Madame Thenardier
 
-     </p>
+        </p>
 
-     <P>
-       Les Miserables (1982)
-       <br />
-      Francoise Seigner  - Madame Thenardier
+        <P>
+          Les Miserables (1982)
+          <br /> Francoise Seigner - Madame Thenardier
 
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-    Gillian Hanna  - Madame Thenardier
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-        Helena Bonham Carter    - Madame Thenardier
-       </p>
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Gillian Hanna - Madame Thenardier
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Helena Bonham Carter - Madame Thenardier
+        </p>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1> Madame Thenardier </h1>
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Madame Thenardier </h1>
 
-   <p>
-     Monsieur Thenardier's wife. Madame Thenardier is just as evil as her husband and takes special pleasure in abusing Cosette. In later years, she becomes her husband's most devoted accomplice and is particularly enthusiastic about his schemes to rob Valjean and Cosette.
-   </p>
+      <p>
+        Monsieur Thenardier's wife. Madame Thenardier is just as evil as her husband and takes special pleasure in abusing Cosette. In later years, she becomes her husband's most devoted accomplice and is particularly enthusiastic about his schemes to rob Valjean
+        and Cosette.
+      </p>
 
-   </div></div>
-   <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Thenardiers.JPG" width="300" height="500" class="" ></div>
-</div>
+    </div>
+  </div>
+  <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Thenardiers.JPG" width="300" height="500" class=""></div>
+  </div>
 
 
 
 </body>
+
 </html>
 
 {% elif name =="Enjolras" %}
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
     <div class="header">
       <div class="menu">
-         <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
-<center>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
 
 
   <hr />
@@ -761,11 +804,12 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
 
       <div class="header">
         <div class="menu">
-         </div><p1>
-  <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
-           </p1>  <br /></div>
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
 
-    <hr />
+      <hr />
     </div>
     <div class="overlay-content">
       <a href="http://set09103.napier.ac.uk:9158/">Home</a>
@@ -776,65 +820,427 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
     </div>
   </div>
 </head>
-<body >
-<div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
-<div class="charPar">
+  <div class="charPar">
 
-  <div class="container">
-   <div class="column-center">  <h1>Film Portrayals</h1>
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Timothy Morand - Enjolras
+        <p>
+          Les Miserables (1978)
+          <br /> Timothy Morand - Enjolras
 
-     </p>
+        </p>
 
-     <P>
-       Les Miserables (1982)
-       <br />
-      Herve Furic - Enjolras
+        <P>
+          Les Miserables (1982)
+          <br /> Herve Furic - Enjolras
 
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-    Lennie James - Enjolras
-       </p>
-       <p>
-         Les Miserables (2012)
-         <br />
-        Aaron Tveit - Enjolras
-       </p>
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Lennie James - Enjolras
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Aaron Tveit - Enjolras
+        </p>
 
 
 
-   </div>
-</div>
-   <div class="column-left">
-     <h1>Enjolras</h1>
+      </div>
+    </div>
+    <div class="column-left">
+      <h1>Enjolras</h1>
 
-   <p>
-     The leader of the Friends of the ABC. Enjolras is a radical student revolutionary. He is both wild and beautiful. Together with Courfeyrac and Marius, Enjolras leads the insurrection at the barricade.
-   </p>
+      <p>
+        The leader of the Friends of the ABC. Enjolras is a radical student revolutionary. He is both wild and beautiful. Together with Courfeyrac and Marius, Enjolras leads the insurrection at the barricade.
+      </p>
 
-   </div></div>
-   <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Friends_of_the_ABC.jpg/220px-Friends_of_the_ABC.jpg" width="300" height="500" class="" ></div>
-</div>
+    </div>
+  </div>
+  <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Friends_of_the_ABC.jpg/220px-Friends_of_the_ABC.jpg" width="300" height="500" class=""></div>
+  </div>
 
 
 
 </body>
+
 </html>
 {% elif name =="Gavorche" %}
 <html>
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles2.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
 <script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
 <head>
   <div class="open">
 
+    <div class="header">
+      <div class="menu">
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
+
+
+  <hr />
+
+
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="open">
+
+      <div class="header">
+        <div class="menu">
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
+
+      <hr />
+    </div>
+    <div class="overlay-content">
+      <a href="http://set09103.napier.ac.uk:9158/">Home</a>
+
+      <a href="#">Musical</a>
+      <a href="#">Film</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</head>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+  </div>
+  <div class="charPar">
+
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
+
+        <p>
+          Les Miserables (1978)
+          <br /> Dexter Fletcher - Gavroche
+
+        </p>
+
+        <P>
+          Les Miserables (1982)
+          <br /> Emmanuel Curtil - Gavroche
+
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Shane Hervey - Gavroche
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Daniel Huttlestone - Gavorche
+        </p>
+
+
+
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Gavorche </h1>
+
+      <p>
+        The Thenardiers' oldest son. Gavroche is kicked out of the house at an early age and becomes a Parisian street urchin. He is a happy-go-lucky child who enjoys the small pleasures of life and demonstrates unusual generosity toward those even less fortunate
+        than he is. He is also fierce and brave, and plays a decisive role in the barricade even though he does not have a gun.
+
+    </div>
+  </div>
+  <div class="column-right"><img src="https://www.mtholyoke.edu/courses/rschwart/hist255-s01/thenardier/images/gamin.jpg" width="300" height="500" class=""></div>
+  </div>
+
+
+
+</body>
+
+</html>
+{% elif name =="BishopMyriel" %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
+<script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
+<head>
+  <div class="open">
+    <div class="header">
+      <div class="menu">
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
+
+
+  <hr />
+
+
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="open">
+
+      <div class="header">
+        <div class="menu">
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
+
+      <hr />
+    </div>
+    <div class="overlay-content">
+      <a href="http://set09103.napier.ac.uk:9158/">Home</a>
+
+      <a href="#">Musical</a>
+      <a href="#">Film</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</head>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+  </div>
+  <div class="charPar">
+
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
+
+        <p>
+          Les Miserables (1978)
+          <br /> Claude Dauphin - Bishop Myriel
+
+        </p>
+
+        <P>
+          Les Miserables (1982)
+          <br /> Louis Seigner - Bishop Myriel
+
+        </P>
+        <p>
+          Les Miserables (1998)
+          <br /> Peter Vaughan - Bishop Myriel
+        </p>
+        <p>
+          Les Miserables (2012)
+          <br /> Colm Wilkinson - Bisop Myriel
+        </p>
+
+
+
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Bishop Myriel </h1>
+
+      <p>
+        The bishop of Digne. M. Myriel is a much-admired clergyman whose great kindness and charity have made him popular throughout his parish. He passes on these same qualities to Valjean and initiates the ex-convict’s spiritual renewal by saving Valjean from
+        arrest and making him promise to live as an honest man.
+
+    </div>
+  </div>
+  <div class="column-right"><img src="http://www.awesomestories.com/images/user/35f3e61cfc.jpg" width="300" height="500" class=""></div>
+  </div>
+
+
+
+</body>
+
+</html>
+{% elif name =="Fauchelevent" %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
+<script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
+<head>
+  <div class="open">
+    <div class="header">
+      <div class="menu">
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
+
+
+  <hr />
+
+
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="open">
+
+      <div class="header">
+        <div class="menu">
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
+
+      <hr />
+    </div>
+    <div class="overlay-content">
+      <a href="http://set09103.napier.ac.uk:9158/">Home</a>
+
+      <a href="#">Musical</a>
+      <a href="#">Film</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</head>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+  </div>
+  <div class="charPar">
+
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
+
+        <p>
+          Les Miserables (1978)
+          <br /> Cyril Cusack - Fauchelevent
+
+        </p>
+
+        <P>
+          Les Miserables (1982)
+          <br /> Paul Preboist - Fauchelevent
+
+        </P>
+
+        <p>
+          Les Miserables (2012)
+          <br /> Stephen Tate - Fauchelevent
+        </p>
+
+
+
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Fauchelevent </h1>
+
+      <p>
+        A critic of Valjean's while Valjean is the mayor of Montreuil-sur-mer under the assumed name of Madeleine. Fauchelevent becomes indebted to Valjean when Valjean saves him from a carriage accident. When they meet again years later, Fauchelevent returns
+        the favor by hiding Valjean and Cosette in a convent.
+
+    </div>
+  </div>
+  <div class="column-right"><img src="https://i.pinimg.com/originals/9c/a1/23/9ca12328162bceb2b3c37a40952f55b1.jpg" width="300" height="500" class=""></div>
+  </div>
+
+
+
+</body>
+
+</html>
+{% elif name =="Champmathieu" %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
+<script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
+<head>
+  <div class="open">
+    <div class="header">
+      <div class="menu">
+        <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div>
+    </div>
+    <p1>
+      <center>
+        <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center> <br /></div>
+
+
+  <hr />
+
+
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="open">
+
+      <div class="header">
+        <div class="menu">
+        </div>
+        <p1>
+          <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+        </p1> <br /></div>
+
+      <hr />
+    </div>
+    <div class="overlay-content">
+      <a href="http://set09103.napier.ac.uk:9158/">Home</a>
+
+      <a href="#">Musical</a>
+      <a href="#">Film</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</head>
+
+<body>
+  <div class="headerOver">
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+  </div>
+  <div class="charPar">
+
+    <div class="container">
+      <div class="column-center">
+        <h1>Film Portrayals</h1>
+
+
+        <p>
+          Les Miserables (2012)
+          <br /> James Simmons - Champmathieu
+        </p>
+
+
+
+      </div>
+    </div>
+    <div class="column-left">
+      <h1> Champmathieu </h1>
+
+      <p>
+        A vagabond who is misidentified as Valjean after being caught stealing apples.
+    </div>
+  </div>
+  <div class="column-right"><img src="https://i.pinimg.com/originals/9c/a1/23/9ca12328162bceb2b3c37a40952f55b1.jpg" width="300" height="500" class=""></div>
+  </div>
+
+
+
+</body>
+
+</html>
+{% elif name =="BaptistineMyriel" %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
+<script src="{{url_for('static', filename='styles/test.js')}}"></script>
+
+<head>
+  <div class="open">
     <div class="header">
       <div class="menu">
          <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
@@ -869,35 +1275,24 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
 </head>
 <body >
 <div class="headerOver">
-    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="file:///Users/katiemcnamara/Desktop/characters.html" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+    <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
   </div>
 <div class="charPar">
 
   <div class="container">
    <div class="column-center">  <h1>Film Portrayals</h1>
 
-     <p>
-       Les Miserables (1978)
-   <br />
-       Dexter Fletcher - Gavroche
-
-     </p>
 
      <P>
        Les Miserables (1982)
        <br />
-      Emmanuel Curtil - Gavroche
+      Madeleine Bouchez - Baptistine Myriel
 
-     </P>
-     <p>
-    Les Miserables (1998)
-     <br />
-    Shane Hervey - Gavroche
-       </p>
+
        <p>
          Les Miserables (2012)
          <br />
-        Daniel Huttlestone - Gavorche
+         Georgie Glen - Baptistine Myriel
        </p>
 
 
@@ -905,17 +1300,85 @@ Fantine became an archetype of self-abnegation and devoted motherhood. Possibly 
    </div>
 </div>
    <div class="column-left">
-     <h1> Gavorche </h1>
+     <h1> Baptistine Myriel </h1>
 
    <p>
-    The Thenardiers' oldest son. Gavroche is kicked out of the house at an early age and becomes a Parisian street urchin. He is a happy-go-lucky child who enjoys the small pleasures of life and demonstrates unusual generosity toward those even less fortunate than he is. He is also fierce and brave, and plays a decisive role in the barricade even though he does not have a gun.
-
+     Bishop Myriel's sister. She loves and venerates her brother.
    </div></div>
-   <div class="column-right"><img src="https://www.mtholyoke.edu/courses/rschwart/hist255-s01/thenardier/images/gamin.jpg" width="300" height="500" class="" ></div>
+   <div class="column-right"><img src="https://i.pinimg.com/originals/9c/a1/23/9ca12328162bceb2b3c37a40952f55b1.jpg" width="300" height="500" class="" ></div>
 </div>
 
 
 
 </body>
 </html>
+{% elif name =="ColonelGeorgesPontmercy" %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles2.css') }}">
+<script src="{{url_for('static', filename='styles/test.js')}}"></script>
+<head>
+      <div class="open">
+        <div class="header">
+          <div class="menu">
+             <span style="font-size:30px;cursor:pointer;color: #515151; " onclick="openNav()"> Menu &#9776; </span> </div></div><p1>
+    <center>
+      <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" /></center>  <br /></div>
+
+
+      <hr />
+
+
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="open">
+
+          <div class="header">
+            <div class="menu">
+             </div><p1>
+      <img src="https://static1.squarespace.com/static/5112dd17e4b0ec824fd0821e/t/5b51a2a7aa4a99f62d2101ac/1532076725300/logo-headerHorizontal.png" height="80" />
+               </p1>  <br /></div>
+
+        <hr />
+        </div>
+        <div class="overlay-content">
+          <a href="http://set09103.napier.ac.uk:9158/">Home</a>
+
+          <a href="#">Musical</a>
+          <a href="#">Film</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </head>
+    <body >
+    <div class="headerOver">
+        <h1> <a href="http://set09103.napier.ac.uk:9158/about" style="text-decoration:none; color:#515151">Overview</a>    &emsp;           <a href="http://set09103.napier.ac.uk:9158/about/characters" style="text-decoration:none; color:#515151">Characters</a>  </h1>
+      </div>
+    <div class="charPar">
+
+      <div class="container">
+       <div class="column-center">  <h1>Film Portrayals</h1>
+
+         <p>
+    Isn't portrayed in any film adaptations</p>
+
+
+
+       </div>
+    </div>
+       <div class="column-left">
+         <h1> Colonel Georges Pontmercy </h1>
+
+       <p>
+         An officer in Napoleon's army and Marius's father. Pontmercy is severely wounded at the Battle of Waterloo, and mistakenly believing that Thenardier has saved his life, he asks that Marius honor this debt. Although we know little about Pontmercy's personal life, his politics greatly influence the young Marius.
+       </div></div>
+       <div class="column-right"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Marius_sees_Cosette.jpg/220px-Marius_sees_Cosette.jpg" width="300" height="500" class="" ></div>
+    </div>
+
+
+
+    </body>
+    </html>
+
 {% endif %}
