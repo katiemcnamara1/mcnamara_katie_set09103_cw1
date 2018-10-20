@@ -9,6 +9,10 @@ def root():
 def roots():
     return render_template('about.html')
 
+@app.route('/films')
+def films():
+    return render_template('films.html')
+
 @app.route('/about/characters')
 def character():
     return render_template('characters.html')
@@ -88,9 +92,7 @@ def ColonelGeorgesPontmercy():
     name ='ColonelGeorgesPontmercy'
     return render_template('characters2.html', name=name)
 
-@app.route('/films')
-def films():
-    return render_template('films.html')
+
 
 @app.route('/films/1978')
 def film1():
