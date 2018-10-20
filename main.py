@@ -93,7 +93,6 @@ def ColonelGeorgesPontmercy():
     return render_template('characters2.html', name=name)
 
 
-
 @app.route('/about/film/1978')
 def film1():
     name ='1978'
@@ -115,13 +114,9 @@ def film4():
     return render_template('films.html', name=name)
 
 
-
-
-
-
-
-
-
+@app.errorhandler(404)
+def four(e):
+    return render_template('404.html', 404)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
