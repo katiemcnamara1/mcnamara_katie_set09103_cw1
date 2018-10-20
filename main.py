@@ -97,22 +97,22 @@ def ColonelGeorgesPontmercy():
 @app.route('/about/film/1978')
 def film1():
     name ='1978'
-    return render_template('films2.html', name=name)
+    return render_template('films.html', name=name)
 
 @app.route('/about/film/1982')
 def film2():
     name ='1982'
-    return render_template('films2.html', name=name)
+    return render_template('films.html', name=name)
 
 @app.route('/about/film/1998')
 def film3():
     name ='1998'
-    return render_template('films2.html', name=name)
+    return render_template('films.html', name=name)
 
 @app.route('/about/film/2012')
 def film4():
     name ='2012'
-    return render_template('films2.html', name=name)
+    return render_template('films.html', name=name)
 
 
 
