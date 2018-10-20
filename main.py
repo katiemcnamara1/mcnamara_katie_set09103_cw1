@@ -9,7 +9,7 @@ def root():
 def roots():
     return render_template('about.html')
 
-@app.route('/films')
+@app.route('/about/films')
 def films():
     return render_template('films.html')
 
