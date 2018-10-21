@@ -26,6 +26,13 @@ def Victor():
 def musical():
     return render_template('musical.html')
 
+@app.route('/musical/songs')
+def musicalsongs():
+    return render_template('musicalsongs.html')
+
+
+
+
 @app.route('/about/characters/Cosette')
 def Cosette():
     name = 'Cosette'
