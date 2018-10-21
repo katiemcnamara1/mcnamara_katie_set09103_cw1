@@ -30,7 +30,25 @@ def musical():
 def musicalsongs():
     return render_template('musicalsongs.html')
 
+@app.route('/musical/songs/IDreamedADream')
+def idream():
+    name = 'IDreamedADream'
+    return render_template('musicalsongs2.html', name=name)
 
+@app.route('/musical/songs/DoYouHearThePeopleSing')
+def doyou():
+    name = 'DoYouHearThePeopleSing'
+    return render_template('musicalsongs2.html', name=name)
+
+@app.route('/musical/songs/OneDayMore')
+def oneday():
+    name = 'OneDayMore'
+    return render_template('musicalsongs2.html', name=name)
+
+@app.route('/musical/songs/OnMyOwn')
+def onmy():
+    name = 'OnMyOwn'
+    return render_template('musicalsongs2.html', name=name)
 
 
 @app.route('/about/characters/Cosette')
