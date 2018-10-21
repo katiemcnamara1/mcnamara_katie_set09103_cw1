@@ -17,6 +17,13 @@ def films():
 def character():
     return render_template('characters.html')
 
+@app.route('/about/VictorHugo')
+def Victor():
+    name = 'VictorHugo'
+    return render_template('characters2.html', name=name)
+
+
+
 @app.route('/about/characters/Cosette')
 def Cosette():
     name = 'Cosette'
