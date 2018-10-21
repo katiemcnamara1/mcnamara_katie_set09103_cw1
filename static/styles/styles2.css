@@ -132,15 +132,6 @@ margin-left: 150px;
 
 }
 
-.column-right2 {
-	width: 33%;
-	right: 0;
-	position: absolute;
-  margin-right: 50px;
-  margin-top: 1px;
-
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -158,6 +149,18 @@ margin-left: 150px;
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+table, th, td {
+    border:  1px solid black;
+}
+.column-right2 {
+	width: 33%;
+	right: 0;
+	position: absolute;
+  margin-right: 50px;
+  margin-top: 1px;
+
 }
 
 .box {
@@ -194,10 +197,6 @@ margin-left: 150px;
     width: 100%;
     text-align: center;
 
-}
-
-table, th, td {
-    border:  1px solid black;
 }
 
 .overlay a {
