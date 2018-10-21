@@ -40,7 +40,7 @@ def doyou():
     name = 'DoYouHearThePeopleSing'
     return render_template('musicalsongs2.html', name=name)
 
-@app.route('/musical/songs/CastleOnACloud)
+@app.route('/musical/songs/CastleOnACloud')
 def castle():
     name = 'castle'
     return render_template('musicalsongs2.html', name=name)
