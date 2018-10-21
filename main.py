@@ -22,7 +22,9 @@ def Victor():
     name = 'VictorHugo'
     return render_template('characters2.html', name=name)
 
-
+@app.route('/musical')
+def films():
+    return render_template('musical.html')
 
 @app.route('/about/characters/Cosette')
 def Cosette():
