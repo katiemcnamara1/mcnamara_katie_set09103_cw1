@@ -42,7 +42,7 @@ def doyou():
 
 @app.route('/musical/songs/CastleOnACloud')
 def castle():
-    name = 'castle'
+    name = 'CastleOnACloud'
     return render_template('musicalsongs2.html', name=name)
 
 @app.route('/musical/songs/OnMyOwn')
@@ -149,8 +149,9 @@ def film4():
 
 
 @app.errorhandler(404)
-def four(e):
-    return render_template('404.html'), 404
+def four():
+    name = '404'
+    return render_template('characters2.html' , name=name), 404
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
