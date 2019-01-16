@@ -2,4 +2,4 @@
 
 LES MISERABLES site created using python flask 
 
-created using VIM, development sever, python flask, HTML, CSS. 
+created using VIM, development sever, python flask, HTML, CSS, JavaScript. 
